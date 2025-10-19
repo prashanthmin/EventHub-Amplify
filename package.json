@@ -1,0 +1,36 @@
+{
+  "name": "eventhub-amplify",
+  "version": "1.0.0",
+  "description": "Minimal production-ready MERN scaffold (local MongoDB) implementing:\r - User registration/login (JWT)\r - Roles: organizer, attendee\r - Event CRUD (organizers)\r - Event browsing, search, filter\r - Booking and booking history",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.16.1",
+    "@aws-amplify/backend-cli": "^1.8.0",
+    "aws-cdk-lib": "^2.204.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.11",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashanthmin/EventHub-Amplify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/prashanthmin/EventHub-Amplify/issues"
+  },
+  "homepage": "https://github.com/prashanthmin/EventHub-Amplify#readme",
+  "dependencies": {
+    "aws-amplify": "^6.15.7"
+  }
+}
